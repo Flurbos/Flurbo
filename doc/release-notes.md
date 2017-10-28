@@ -1,9 +1,9 @@
-Flurbo Core version 0.12.2 is now available from:
+Flurbo Core version 0.12.2 is soon available from:
 
-  <https://flurbo.org/bin/flurbo-core-0.12.2/>
+  <https://flurbo.xyz/bin/flurbo-core-0.12.2/>
 
 This is a new minor version release, including ........,
-various bugfixes and updated translations.
+various bugfixes and Client name change.
 
 Please report bugs using the issue tracker at github:
 
@@ -40,6 +40,12 @@ Example item
 ---------------------------------------
 
 Example text.
+
+0.12.2 Change log
+=================
+Setup bitcoin-seeder for flurbocore, added correct domains. ( 2 currently, 1 working ).
+Change clientname, to easily identify correct nodes in peers list.
+- Working on fixing bitcoin nodes connecting -
 
 0.12.1 Change log
 =================
