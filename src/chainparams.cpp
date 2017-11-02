@@ -115,20 +115,11 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x00000000a7978cb4845455e14ab03555af5dd0f9d2066476430a240a240bc4c9"));
         assert(genesis.hashMerkleRoot == uint256S("0xab389382081431342fdd6a946fa28faf6e1846f8cfc92fbff3d3c1df11d46874"));
 
-	//Shouldn't need now..
-        //vFixedSeeds.clear();
-        //vSeeds.clear();
+        vFixedSeeds.clear();
+        vSeeds.clear();
 	
 	vSeeds.push_back(CDNSSeedData("flurbo.xyz", "dnsseed.flurbo.xyz")); // Badchoicesz
 	//vSeeds.push_back(CDNSSeedData("prenges.rocks", "seed.prenges.rocks")); //sirbond
-	/* Fix later
-        vSeeds.push_back(CDNSSeedData("flurbo.sipa.be", "seed.flurbo.sipa.be")); // Pieter Wuille
-        vSeeds.push_back(CDNSSeedData("bluematt.me", "dnsseed.bluematt.me")); // Matt Corallo
-        vSeeds.push_back(CDNSSeedData("dashjr.org", "dnsseed.flurbo.dashjr.org")); // Luke Dashjr
-        vSeeds.push_back(CDNSSeedData("flurbostats.com", "seed.flurbostats.com")); // Christian Decker
-        vSeeds.push_back(CDNSSeedData("xf2.org", "bitseed.xf2.org")); // Jeff Garzik
-        vSeeds.push_back(CDNSSeedData("flurbo.jonasschnelli.ch", "seed.flurbo.jonasschnelli.ch")); // Jonas Schnelli
-	*/
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,35);//F
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,95);//f
@@ -207,7 +198,7 @@ public:
         pchMessageStart[2] = 0x11;
         pchMessageStart[3] = 0x07;
         vAlertPubKey = ParseHex("04302390343f91cc401d56d68b123028bf52e5fca1939df127f63c6467cdf9c8e2c14b61104cf817d0b780da337893ecc4aaff1309e536162dabbdb45200ca2b0a");
-        nDefaultPort = 18319;
+        nDefaultPort = 18913;
         nMaxTipAge = 0x7fffffff;
         nPruneAfterHeight = 1000;
 
