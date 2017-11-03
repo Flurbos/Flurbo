@@ -150,12 +150,20 @@ public:
             5.0     // * estimated number of transactions per day after checkpoint
 	    */
 	//Test solution to my problem:
-            ( 0, uint256S("0x00000000a7978cb4845455e14ab03555af5dd0f9d2066476430a240a240bc4c9"))
+            /*
+	    ( 0, uint256S("0x00000000a7978cb4845455e14ab03555af5dd0f9d2066476430a240a240bc4c9"))
 	    ( 1, uint256S("0x00000000419d2350e7f0d83851a25d9e73d5a2b92bdfbca45c1d65818a065043")), 
             1505208823, //1504946923, // * UNIX timestamp of last checkpoint block
             0,   // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             0.0     // * estimated number of transactions per day after checkpoint
+	    */
+            ( 0, uint256S("0x00000000a7978cb4845455e14ab03555af5dd0f9d2066476430a240a240bc4c9"))
+	    ( 3, uint256S("0x00000000da524545fd1947fa1c577984f823a9a4a1cba3752b47383621056784")), 
+            1505552357, //1504946923, // * UNIX timestamp of last checkpoint block
+            3,   // * total number of transactions between genesis and last checkpoint
+                        //   (the tx=... number in the SetBestChain debug.log lines)
+            5.0     // * estimated number of transactions per day after checkpoint
         };
     }
 };
